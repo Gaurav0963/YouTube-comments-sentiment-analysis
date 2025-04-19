@@ -2,7 +2,7 @@
 
 A tool to fetch comments from a YouTube channel's latest videos and analyze their sentiment using Python and R Shiny. Perfect for content creators or researchers to gauge audience reactions!
 
-![Demo]() [![GitHub](https://img.shields.io/github/license/Gaurav0963/YouTube-comments-sentiment-analysis)](LICENSE)
+![Demo](https://drive.google.com/file/d/1-wtcZB0tn-aB7jEpQtMqtNTdF6EVeZgf/view?usp=sharing) [![GitHub](https://img.shields.io/github/license/Gaurav0963/YouTube-comments-sentiment-analysis)](LICENSE)
 
 ## Features ✨
 - **Comment Extraction**: Fetches comments from a channel's 5 most recent videos.
@@ -38,8 +38,12 @@ pip install -r requirements.txt
 ### 3. Install R Packages
 Run in R console:
 ```r
-install.packages(c("shiny", "tidytext", "dplyr", "ggplot2", "wordcloud", "readr", "syuzhet", "stopwords"))
+install.packages(c(
+  "shiny", "shinydashboard", "ggplot2", "dplyr", "tidytext",
+  "readr", "wordcloud", "syuzhet", "stopwords", "fmsb"
+))
 ```
+💡 Make sure Rscript is available in your system PATH. You can test this by running: Rscript --version
 
 ## Usage 🚀
 
