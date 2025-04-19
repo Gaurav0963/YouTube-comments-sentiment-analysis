@@ -2,7 +2,7 @@
 
 A tool to fetch comments from a YouTube channel's latest videos and analyze their sentiment using Python and R Shiny. Perfect for content creators or researchers to gauge audience reactions!
 
-![Image](https://drive.google.com/file/d/1-wtcZB0tn-aB7jEpQtMqtNTdF6EVeZgf) [![GitHub](https://img.shields.io/github/license/Gaurav0963/YouTube-comments-sentiment-analysis)](LICENSE)
+![Image](assets/YouTube-sentiment-alaysis-1.png) [![GitHub](https://img.shields.io/github/license/Gaurav0963/YouTube-comments-sentiment-analysis)](LICENSE)
 
 ## Features ✨
 - **Comment Extraction**: Fetches comments from a channel's 5 most recent videos.
