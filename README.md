@@ -92,7 +92,7 @@ youtube-comments-analyzer/
 #### Shiny App Fails to Launch
  * Verify R packages are installed.
 
- * Run manually in R: shiny::runApp('shiny_app')
+ * Run manually in R: `shiny::runApp('shiny_app')`
 
 #### No Comments Retrieved
 - YouTube may limit comment scraping. Test with a highly active channel.
