@@ -101,14 +101,14 @@ youtube-comments-analyzer/
 #### Change Number of Comments/Videos
 Edit `fetch.py`:
 
-- max_results=5 in get_latest_videos()
+- `max_results=5` in `get_latest_videos()`
 
-- max_comments=10 in save_comments_to_csv()
+- `max_comments=10` in `save_comments_to_csv()`
 
 #### Modify Sentiment Analysis
 Edit `shiny_app/app.R`:
 
-- Adjust get_nrc_sentiment() parameters
+- Adjust `get_nrc_sentiment()` parameters
 
 - Change word cloud colors or max words
 
