@@ -118,4 +118,4 @@ Built with `yt-dlp` and `R Shiny`
 NRC Emotion Lexicon: Saif M. Mohammad
 
 ## License 📄
-[MIT License.](\LICENSE)
+[MIT License.](/LICENSE)
