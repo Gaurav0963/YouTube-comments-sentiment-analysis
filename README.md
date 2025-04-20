@@ -24,7 +24,7 @@ A tool to fetch comments from a YouTube channel's latest videos and analyze thei
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/Gaurav0963/YouTube-comments-sentiment-analysis.git
-cd YouTube-comments-sentiment-analysis
+cd YouTube-comments-sentiment-analysis  # Change to project directrory
 ```
 
 ### 2. Install Python Dependencies
@@ -43,7 +43,7 @@ install.packages(c(
   "readr", "wordcloud", "syuzhet", "stopwords", "fmsb"
 ))
 ```
-💡 Make sure Rscript is available in your system PATH. You can test this by running: Rscript --version
+💡 Make sure R is available in your system PATH. You can test this by running: `R --version`
 
 ## Usage 🚀
 
@@ -52,28 +52,28 @@ Step 1: Fetch Comments & Launch Shiny
 # Run the analysis (default channel: Veritasium)
 ./run_youtube_analysis.sh
 ```
-Step 2: Interact with the Shiny 
+Step 2: Interact with the `Shiny` 
 
 A browser window will open with three tabs:
 
-    - Sentiment Plot: Bar chart of emotion distribution.
+- Sentiment Plot: Bar chart of emotion distribution.
 
-    - Word Cloud: Most frequent words in comments.
+- Word Cloud: Most frequent words in comments.
 
-    - Raw Comments: Top 20 comments.
+- Raw Comments: Top 20 comments.
 
-Click "🔁 Refresh Data" after updating comments.csv.
+Click "🔁 Refresh Data" after updating `comments.csv`.
 
 ### Analyze a Different Channel
-Edit run_youtube_analysis.sh and replace the default URL:
-```bash
+Edit `run_youtube_analysis.sh` and replace the default URL:
+```
 CHANNEL_URL="https://www.youtube.com/@YourChannelName"
 ```
 
 ---
 
 ## Project Structure 📂
-```bash
+```
 youtube-comments-analyzer/
 ├── fetch.py              # Fetches video URLs and comments using yt-dlp
 ├── requirements.txt      # Python dependencies
@@ -99,23 +99,23 @@ youtube-comments-analyzer/
 
 ## Customization 🎨
 #### Change Number of Comments/Videos
-Edit fetch.py:
+Edit `fetch.py`:
 
 - max_results=5 in get_latest_videos()
 
 - max_comments=10 in save_comments_to_csv()
 
 #### Modify Sentiment Analysis
-Edit shiny_app/app.R:
+Edit `shiny_app/app.R`:
 
 - Adjust get_nrc_sentiment() parameters
 
 - Change word cloud colors or max words
 
 ## Acknowledgments 🙏
-Built with yt-dlp and R Shiny
+Built with `yt-dlp` and `R Shiny`
 
 NRC Emotion Lexicon: Saif M. Mohammad
 
 ## License 📄
-MIT License.
+[MIT License.](\LICENSE)
