@@ -47,12 +47,12 @@ install.packages(c(
 
 ## Usage 🚀
 
-Step 1: Fetch Comments & Launch Shiny 
+### Step 1: Fetch Comments & Launch Shiny 
 ```bash
 # Run the analysis (default channel: Veritasium)
 ./run_youtube_analysis.sh
 ```
-Step 2: Interact with the `Shiny` 
+### Step 2: Interact with the `Shiny` 
 
 A browser window will open with three tabs:
 
